@@ -1,0 +1,175 @@
+:root {
+    --just-green: #00FF00;
+    --soft-green: #99FF99;
+    --light-green: #C3FFC3;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: 250px;
+    background: linear-gradient(207.8deg, #282623 16.69%, #99FF99 100%);
+}
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.6rem;
+    margin: auto 0;
+    color: var(--warm-black);
+}
+header .icon--palta {
+    position: absolute;
+    bottom: 10vh;
+    width: 35px;
+    height: 30px;
+    margin: 0;
+    background-image: url('./../assets/icons/palta.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header .icon--aries {
+    position: absolute;
+    bottom: -25px;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    background-image: url('./../assets/icons/aries.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    margin: 0;
+    background-color: var(--warm-black);
+}
+.main-carousel {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 40px 0 40px;
+}
+.carousel-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-content--cart {
+    width: 200px;
+    height: auto;
+    border-color: var(--just-white);
+    border-style: solid;
+    border-radius: 5px;
+}
+.carousel-content #photo1 {
+    width: 170px;
+    height: 245px;
+    background-image: url('./../assets/imgs/1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-content #photo2 {
+    width: 170px;
+    height: 245px;
+    background-image: url('./../assets/imgs/2.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-content #photo3 {
+    width: 170px;
+    height: 245px;
+    background-image: url('./../assets/imgs/3.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+button:focus {outline:0;}
+.play-button {
+    position: absolute;
+    left: calc(50% - 16px);
+    bottom: calc(0% - 18px);
+    width: 38px;
+    height: 38px;
+    background-color: var(--warm-black);
+    border-color: var(--just-white);
+    border-style: solid;
+    border-radius: 20px;
+    background-image: url('./../assets/icons/play-btn.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-poems--container {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: var(--off-white);
+    padding: 30px 0 30px;
+    font-family: 'Caveat', cursive;
+}
+.poems-container--title {
+    width: 80%;
+    min-width: 270px;
+    margin: 0 auto;
+    color: var(--warm-black);
+    font-size: 3.0rem;
+    font-weight: bold;
+    text-align: center;
+}
+.poem {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    color: var(--light-green);
+    background-color: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 1);
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    background-color: var(--warm-black);
+}
+.foot1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 15px;
+    font-size: 0.8rem;
+    line-height: 0.5rem;
+    color: var(--soft-green);
+}
+.foot2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+}
+#paltita {
+    width: 100px;
+    height: 85px;
+    background-image: url('./../assets/icons/palta.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
